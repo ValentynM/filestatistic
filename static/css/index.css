@@ -1,0 +1,41 @@
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.page {
+    height: 100vh;
+}
+
+.background-image {
+     width: 100%;
+     height: 100vh;
+     object-fit: cover;
+     background-image: url("https://wallpaperplay.com/walls/full/7/7/3/77866.jpg");
+     filter: blur(3px);
+}
+
+.file-upload-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -600px;
+}
+
+.first-rect {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background: #6f2232;
+    border-radius: 10px;
+}
+
+.second-rect {
+    margin-top: 25px;
+    width: 350px;
+    height: 150px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-width: 2px;
+}
